@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+numpy
+# We will likely need pytesseract or easyocr. 
+# easyocr is better for handwriting but heavy (torch).
+# pytesseract requires Tesseract binary installed on the system.
+# We'll start with pytesseract as a placeholder for the structure.
+pytesseract 
+requests
+python-dotenv
+google-generativeai
+sqlmodel
